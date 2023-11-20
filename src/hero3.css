@@ -1,0 +1,126 @@
+.hero-3 {
+    font-family: var(--ff-primary);
+}
+.use-grid-3 {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+}
+.div-1-hero-3 {
+    margin-top: 40px;
+    margin-left: 160px;
+}
+.content-logo {
+    margin-top: -15px;
+}
+.grow {
+    font-weight: 400;
+    font-style: italic;
+    font-size: var(--fs-100);
+    padding-top: 20px;
+}
+
+.ul-benefits-3 {
+    text-align: start;
+    justify-content: start;
+    font-size: var(--fs-100);
+    font-weight: 100;
+    font-family: var(--ff-primary);
+    margin-left: 40px;
+    
+}
+.btn-arrow-3 {
+    display: flex;
+    margin-left: 120px;
+}
+.bnft {
+    font-size: var(--fs-200);
+    font-weight: 900;
+}
+
+
+@media(min-width: 50em) and (max-width: 1044px){ 
+    
+    .use-grid-3 {
+        grid-template-columns: 1fr;
+    }
+    .column {
+        order: -1;
+    }
+
+       .btn-arrow {
+        display: flex;
+        justify-content: center;
+    }   
+    .bnft {
+        font-size: var(--fs-200);
+        font-weight: 900;
+        text-align: center;
+    }
+    .btn-arrow-3 {
+        justify-content: center;
+    }
+
+  }
+
+  @media(min-width: 30em) and (max-width: 50em){ 
+
+    .use-grid-3 {
+        grid-template-columns: 1fr;
+    }
+    .column {
+        order: -1;
+    }
+
+    .ul-benefits-3 {
+        text-align: start;
+    }
+    .benefits-3 {
+        margin-left: -100px;
+       } 
+       .btn-arrow {
+        display: flex;
+        justify-content: center;
+    }   
+    .bnft {
+        font-size: var(--fs-200);
+        font-weight: bold;
+        text-align: center;
+    }
+    .btn-arrow-3 {
+        justify-content: center;
+    }
+  }
+
+  @media(max-width: 30em){
+    .first-hero2-pic {
+        width: 100%;
+        max-width: 80%;
+    }
+    .use-grid-3 {
+        grid-template-columns: 1fr;
+    }
+    .column {
+        order: -1;
+    }
+
+    .column {
+        text-align: start;
+        justify-self: start;
+    }
+
+   .benefits-3 {
+
+    margin-left: -150px;
+   }
+   .bnft {
+    font-size: var(--fs-200);
+    font-weight: bold; 
+   }
+
+   .btn-arrow-3 {
+    justify-content: center;
+    margin-left: -30px;
+
+   }
+}
